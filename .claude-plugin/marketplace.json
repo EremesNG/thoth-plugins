@@ -1,0 +1,42 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "thoth-plugins",
+  "description": "Canonical marketplace for Thoth coding-agent plugins.",
+  "owner": {
+    "name": "EremesNG"
+  },
+  "plugins": [
+    {
+      "name": "thoth-agents",
+      "description": "Adaptive multi-harness orchestration with seven roles and specification-driven delivery.",
+      "version": "0.3.11",
+      "author": {
+        "name": "thoth-agents maintainers"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EremesNG/thoth-agents.git",
+        "path": "plugin",
+        "ref": "v0.3.11"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/EremesNG/thoth-agents"
+    },
+    {
+      "name": "thoth-mem",
+      "description": "SQLite-first persistent memory, bounded recovery, and compaction-safe lifecycle for coding sessions.",
+      "version": "0.4.13",
+      "author": {
+        "name": "thoth-mem maintainers"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EremesNG/thoth-mem.git",
+        "path": "plugin",
+        "ref": "v0.4.13"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/EremesNG/thoth-mem"
+    }
+  ]
+}

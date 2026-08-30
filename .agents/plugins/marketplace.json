@@ -1,0 +1,36 @@
+{
+  "name": "thoth-plugins",
+  "interface": {
+    "displayName": "Thoth Plugins"
+  },
+  "plugins": [
+    {
+      "name": "thoth-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EremesNG/thoth-agents.git",
+        "path": "./plugin",
+        "ref": "v0.3.11"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "thoth-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/EremesNG/thoth-mem.git",
+        "path": "./plugin",
+        "ref": "v0.4.13"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

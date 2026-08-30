@@ -1,0 +1,18 @@
+{
+  "name": "thoth-plugins",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Canonical Codex and Claude Code marketplace for Thoth plugins.",
+  "packageManager": "pnpm@11.20.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "catalog:render": "node scripts/render.mjs",
+    "catalog:update": "node scripts/update-plugin.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}

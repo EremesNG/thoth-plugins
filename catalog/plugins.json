@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "marketplace": {
+    "name": "thoth-plugins",
+    "displayName": "Thoth Plugins",
+    "description": "Canonical marketplace for Thoth coding-agent plugins.",
+    "owner": {
+      "name": "EremesNG"
+    }
+  },
+  "plugins": [
+    {
+      "name": "thoth-agents",
+      "version": "0.3.11",
+      "repository": "https://github.com/EremesNG/thoth-agents.git",
+      "ref": "v0.3.11",
+      "path": "plugin",
+      "description": "Adaptive multi-harness orchestration with seven roles and specification-driven delivery.",
+      "author": {
+        "name": "thoth-agents maintainers"
+      },
+      "homepage": "https://github.com/EremesNG/thoth-agents",
+      "category": "Productivity",
+      "requiredSkills": [
+        "plan-reviewer",
+        "thoth-archive",
+        "thoth-constitution",
+        "thoth-init",
+        "thoth-sdd"
+      ]
+    },
+    {
+      "name": "thoth-mem",
+      "version": "0.4.13",
+      "repository": "https://github.com/EremesNG/thoth-mem.git",
+      "ref": "v0.4.13",
+      "path": "plugin",
+      "description": "SQLite-first persistent memory, bounded recovery, and compaction-safe lifecycle for coding sessions.",
+      "author": {
+        "name": "thoth-mem maintainers"
+      },
+      "homepage": "https://github.com/EremesNG/thoth-mem",
+      "category": "Productivity",
+      "requiredSkills": [
+        "thoth-mem"
+      ]
+    }
+  ]
+}
