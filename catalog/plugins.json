@@ -11,9 +11,9 @@
   "plugins": [
     {
       "name": "thoth-agents",
-      "version": "0.3.11",
+      "version": "0.3.12",
       "repository": "https://github.com/EremesNG/thoth-agents.git",
-      "ref": "v0.3.11",
+      "ref": "v0.3.12",
       "path": "plugin",
       "description": "Adaptive multi-harness orchestration with seven roles and specification-driven delivery.",
       "author": {

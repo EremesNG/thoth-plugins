@@ -10,7 +10,7 @@
         "source": "git-subdir",
         "url": "https://github.com/EremesNG/thoth-agents.git",
         "path": "./plugin",
-        "ref": "v0.3.11"
+        "ref": "v0.3.12"
       },
       "policy": {
         "installation": "AVAILABLE",
