@@ -24,7 +24,7 @@
         "source": "git-subdir",
         "url": "https://github.com/EremesNG/thoth-mem.git",
         "path": "./plugin",
-        "ref": "v0.5.3"
+        "ref": "v0.5.4"
       },
       "policy": {
         "installation": "AVAILABLE",

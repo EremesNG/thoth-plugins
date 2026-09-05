@@ -31,9 +31,9 @@
     },
     {
       "name": "thoth-mem",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "repository": "https://github.com/EremesNG/thoth-mem.git",
-      "ref": "v0.5.3",
+      "ref": "v0.5.4",
       "path": "plugin",
       "description": "SQLite-first persistent memory, bounded recovery, and compaction-safe lifecycle for coding sessions.",
       "author": {
