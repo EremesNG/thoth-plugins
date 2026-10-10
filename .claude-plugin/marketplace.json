@@ -9,7 +9,7 @@
     {
       "name": "thoth-agents",
       "description": "Adaptive multi-harness orchestration with seven roles and specification-driven delivery.",
-      "version": "0.5.1",
+      "version": "0.6.0",
       "author": {
         "name": "thoth-agents maintainers"
       },
@@ -17,7 +17,7 @@
         "source": "git-subdir",
         "url": "https://github.com/EremesNG/thoth-agents.git",
         "path": "plugin",
-        "ref": "v0.5.1"
+        "ref": "v0.6.0"
       },
       "category": "productivity",
       "homepage": "https://github.com/EremesNG/thoth-agents"
